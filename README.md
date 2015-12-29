@@ -9,14 +9,14 @@ I was pleasantly surprised by R's simplicity and efficacy!
 
 
 This script's aim is to determine how wine's perceived quality is linked to its price.
-Additionally, this project can aid in comparing differnet wine critics: it should reveal how much each critic agrees with the market's pricing of wine.
+Additionally, this project can aid in comparing different wine critics: it should reveal how much each critic agrees with the market's pricing of wine.
 
 Hopefully, Vendange will also provide some insight into how much of a [Veblen good](https://en.wikipedia.org/wiki/Veblen_good) wine is.
 
 ## What It Does
 
 First, Vendange loads a [wine dataset] (http://insightmine.com/bring-your-own-data-analyzing-wine-market/).
-Then, after cleaning up the data, the script calculates the correlation between the prices of bottles and the score attributed to them by each wine critic.
+Then, after cleaning up the data, the script calculates the correlation between the price of wine bottles and the score attributed to them by each wine critic.
 Finally, after eliminating critics who have little variation in the scores they give out, Vendange outputs a bar graph representing its results.
 
 ## Results
